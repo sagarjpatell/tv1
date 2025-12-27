@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PrimeStream IPTV | TV Series & Movies</title>
+  <meta name="description" content="PrimeStream IPTV offers unlimited TV series, movies, and live channels in HD & 4K. Free trial available." />
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --card: #12172a;
+      --primary: #3b82f6;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: radial-gradient(circle at top, #1e3a8a, var(--bg));
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: clamp(2.2rem, 5vw, 3rem);
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 650px;
+      margin: 0 auto 25px;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59,130,246,.35);
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .title h2 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .title p { color: var(--muted); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,.45);
+    }
+
+    .card img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 16px;
+    }
+
+    .card-body h3 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+    }
+
+    .card-body span {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 26px;
+      text-align: center;
+    }
+
+    .feature {
+      background: var(--card);
+      padding: 30px 22px;
+      border-radius: 16px;
+    }
+
+    .feature h3 { margin-bottom: 8px; }
+
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 26px;
+    }
+
+    .plan {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 34px 24px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,.05);
+    }
+
+    .plan h3 { font-size: 1.4rem; }
+
+    .price {
+      font-size: 2.4rem;
+      margin: 14px 0;
+      color: #60a5fa;
+    }
+
+    .plan p { color: var(--muted); }
+
+    footer {
+      background: #050814;
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #22c55e;
+      color: #fff;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(34,197,94,.4);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PrimeStream IPTV</h1>
+  <p>Unlimited TV Series, Movies & Live Channels in HD and 4K. Watch on any device. Free trial available.</p>
+  <a class="btn" href="#pricing">Get Free Trial</a>
+</header>
+
+<section>
+  <div class="title">
+    <h2>Trending TV Series</h2>
+    <p>Watch the most popular shows from around the world</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4" alt="Series">
+      <div class="card-body"><h3>Crime City</h3><span>Action • Thriller</span></div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba" alt="Series">
+      <div class="card-body"><h3>Dark Files</h3><span>Mystery • Drama</span></div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517602302552-471fe67acf66" alt="Series">
+      <div class="card-body"><h3>Future Zone</h3><span>Sci‑Fi • Adventure</span></div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1518929458119-e5bf444c30f4" alt="Series">
+      <div class="card-body"><h3>Family Bonds</h3><span>Drama • Romance</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="title">
+    <h2>Why Choose PrimeStream?</h2>
+    <p>Premium IPTV experience at an affordable price</p>
+  </div>
+
+  <div class="features">
+    <div class="feature"><h3>15,000+ Shows</h3><p>US, UK, Indian & international content.</p></div>
+    <div class="feature"><h3>HD & 4K</h3><p>Smooth streaming with minimal buffering.</p></div>
+    <div class="feature"><h3>All Devices</h3><p>Smart TV, Firestick, Android, iOS, PC & Mac.</p></div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="title">
+    <h2>Pricing Plans</h2>
+    <p>No contracts • Instant activation</p>
+  </div>
+
+  <div class="pricing">
+    <div class="plan">
+      <h3>1 Month</h3>
+      <div class="price">$15</div>
+      <p>Full access to all content</p>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+    <div class="plan">
+      <h3>6 Months</h3>
+      <div class="price">$70</div>
+      <p>Most popular plan</p>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+    <div class="plan">
+      <h3>12 Months</h3>
+      <div class="price">$120</div>
+      <p>Best value</p>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 PrimeStream IPTV. All rights reserved.</p>
+  <p>Support available 24/7 via WhatsApp</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/1234567890" target="_blank">WhatsApp Free Trial</a>
+
+</body>
+</html>
